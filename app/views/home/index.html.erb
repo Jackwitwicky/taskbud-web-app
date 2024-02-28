@@ -14,9 +14,9 @@
         <div class="nav-inner">
 
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
+            <%= link_to root_path, class: 'navbar-brand' do %>
               <%= image_tag 'logo.png', alt: 'logo' %>
-            </a>
+            <% end %>
             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="toggler-icon"></span>
               <span class="toggler-icon"></span>
@@ -39,23 +39,10 @@
                 <li class="nav-item">
                   <a href="#team" class="page-scroll" aria-label="Toggle navigation">Team</a>
                 </li>
-                <li class="nav-item">
-                  <a class="page-scroll dd-menu collapsed" href="#blog" data-bs-toggle="collapse" data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Blog</a>
-                  <ul class="sub-menu collapse" id="submenu-1-4">
-                    <li class="nav-item"><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a>
-                    </li>
-                    <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
-                    <li class="nav-item"><a href="blog-single-sidebar.html">Blog Single
-                      Sibebar</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" aria-label="Toggle navigation">Contact</a>
-                </li>
               </ul>
             </div>
             <div class="button add-list-button">
-              <a href="contact.html" class="btn">Get it now</a>
+              <a href="https://play.google.com/store/apps/details?id=com.jacknkiarie.taskbud" class="btn">Get it now</a>
             </div>
           </nav>
 
@@ -71,11 +58,10 @@
     <div class="row align-items-center">
       <div class="col-lg-5 col-md-12 col-12">
         <div class="hero-content">
-          <h1 class="wow fadeInLeft" data-wow-delay=".4s">A powerful app for your business.</h1>
-          <p class="wow fadeInLeft" data-wow-delay=".6s">From open source to pro services, Piqes helps you
-            to build, deploy, test, and monitor apps.</p>
+          <h1 class="wow fadeInLeft" data-wow-delay=".4s">A powerful app to arrange your day.</h1>
+          <p class="wow fadeInLeft" data-wow-delay=".6s">Revamp your task management with Taskbud. There’s never been a better time to be organized. Download Taskbud now!</p>
           <div class="button wow fadeInLeft" data-wow-delay=".8s">
-            <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
+            <a href="https://play.google.com/store/apps/details?id=com.jacknkiarie.taskbud" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
               Play</a>
           </div>
         </div>
@@ -98,8 +84,7 @@
           <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
           <h2 class="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.
           </h2>
-          <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-            Ipsum available, but the majority have suffered alteration in some form.</p>
+          <p class="wow fadeInUp" data-wow-delay=".6s">Don't take our word for it. TaskBud’s got unique and cool features that are going to turn the tide on your everyday grind in a blink.</p>
         </div>
       </div>
     </div>
@@ -108,19 +93,17 @@
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
           <i class="lni lni-cloud-upload"></i>
-          <h3>Push to Deploy</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <h3>Task Creation</h3>
+          <p>Create tasks with ease, just type and hit the done button!</p>
         </div>
 
       </div>
       <div class="col-lg-4 col-md-6 col-12">
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-          <i class="lni lni-lock"></i>
-          <h3>SSL Certificates</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <i class="lni lni-alarm"></i>
+          <h3>Notification Reminders</h3>
+          <p>Go beyond a simple task list. Never forget a task again with timely reminders.</p>
         </div>
 
       </div>
@@ -128,9 +111,8 @@
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
           <i class="lni lni-reload"></i>
-          <h3>Simple Queues</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <h3>Task Completion</h3>
+          <p>Mark your tasks as completed and watch them cross-out through the day, it‘s your victory!</p>
         </div>
 
       </div>
@@ -138,9 +120,8 @@
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
           <i class="lni lni-shield"></i>
-          <h3>Advanced Security</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <h3>Daily Calendar View</h3>
+          <p>Get your day’s tasks at a glance, neat and organized.</p>
         </div>
 
       </div>
@@ -148,9 +129,8 @@
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
           <i class="lni lni-cog"></i>
-          <h3>Powerful API</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <h3>Tasks Tracker</h3>
+          <p>Let Taskbud keep track and help you visualize your to-do list through a monthly snapshot</p>
         </div>
 
       </div>
@@ -158,9 +138,8 @@
 
         <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
           <i class="lni lni-layers"></i>
-          <h3>Database Backups</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a
-            page at its layout.</p>
+          <h3>Offline Support</h3>
+          <p>Create and complete your tasks and sync with the cloud when you get back online</p>
         </div>
 
       </div>
@@ -179,21 +158,17 @@
             <div class="main-icon">
               <i class="lni lni-inbox"></i>
             </div>
-            <h2>1,25,000 Customers Using The Application!</h2>
-            <p>Collaborate over projects with your team and clients optimised for mobile and tablet
-              don't
-              let slow page speeds drive our innovative platform empowers anyone to convert clicks
-              ou'll
-              publish your first landing page in minutes.</p>
+            <h2>Daily snapshot</h2>
+            <p>Whether you’re a CEO, a wizard of Hyperbolic Time Chamber, or a goldfish with memory issues, you’re bound to love Taskbud. This smart app collects your to-dos. No fuss. No confusion. A dash of fun, a pinch of efficiency, and a load of organization!</p>
             <div class="button">
-              <a href="javascript:void(0)" class="btn">Get Started</a>
+              <a href="https://play.google.com/store/apps/details?id=com.jacknkiarie.taskbud" class="btn">Get Started</a>
             </div>
           </div>
 
         </div>
         <div class="col-lg-6 col-md-12 col-12">
           <div class="info-image wow fadeInRight" data-wow-delay=".5s">
-            <%= image_tag 'home.png', alt: 'app home screen' %>
+            <%= image_tag 'home.png', height: 600, alt: 'app home screen' %>
           </div>
         </div>
       </div>
@@ -202,7 +177,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-12 col-12">
           <div class="info-image wow fadeInLeft" data-wow-delay=".3s">
-            <%= image_tag 'profile.png', alt: 'app profile screen' %>
+            <%= image_tag 'profile.png', height: 600, alt: 'app profile screen' %>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-12">
@@ -211,14 +186,10 @@
             <div class="main-icon">
               <i class="lni lni-layout"></i>
             </div>
-            <h2>Seamless Loyalty</h2>
-            <p>Collaborate over projects with your team and clients optimised for mobile and tablet
-              don't
-              let slow page speeds drive our innovative platform empowers anyone to convert clicks
-              ou'll
-              publish your first landing page in minutes.</p>
+            <h2>Monthly Overview</h2>
+            <p>We get it, remembering one task is easy. Remembering twenty-three? Absolute chaos. Don’t you worry, Taskbud has got your back.</p>
             <div class="button">
-              <a href="javascript:void(0)" class="btn">Get Started</a>
+              <a href="https://play.google.com/store/apps/details?id=com.jacknkiarie.taskbud" class="btn">Get Started</a>
             </div>
           </div>
 
@@ -235,12 +206,9 @@
       <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
         <div class="cta-content">
           <h2 class="wow fadeInUp" data-wow-delay=".2s">Install Taskbud and Start Using</h2>
-          <p class="wow fadeInUp" data-wow-delay=".4s">There are many variations of passages of Lorem
-            Ipsum available, but the majority have
-            suffered alteration in some form, by injected humour, or randomised words which don't look
-            even slightly believable.</p>
+          <p class="wow fadeInUp" data-wow-delay=".4s">Ready to make your life easier? Download Taskbud—your route to organization. Track. Complete. Celebrate. One task at a time.</p>
           <div class="button wow fadeInUp" data-wow-delay=".6s">
-            <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
+            <a href="https://play.google.com/store/apps/details?id=com.jacknkiarie.taskbud" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
               Play</a>
           </div>
         </div>

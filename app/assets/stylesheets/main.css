@@ -2212,7 +2212,8 @@ ol {
 }
 
 .app-info .info-one .info-image img {
-  width: 100%
+  width: 100%;
+  object-fit: contain;
 }
 
 .app-info .info-one.style2 {
