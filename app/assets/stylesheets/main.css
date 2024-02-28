@@ -4232,6 +4232,34 @@ blockquote span {
   width: 100%
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-header {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form-description {
+  max-width: 700px;
+}
+
+.flash-messages {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 .map-section {
   background-color: #f9f9f9
 }
@@ -4764,4 +4792,9 @@ blockquote span {
 .footer .footer-newsletter .newsletter-form .button .btn:hover {
   color: #BA77FF;
   background-color: #fff
+}
+
+.contact-nav-bar {
+  display: flex;
+  justify-content: space-between;
 }
