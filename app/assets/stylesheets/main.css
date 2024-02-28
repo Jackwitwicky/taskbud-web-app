@@ -4798,3 +4798,24 @@ blockquote span {
   display: flex;
   justify-content: space-between;
 }
+
+.privacy-header {
+  background-color: #BA77FF;
+}
+
+.privacy-content {
+  width: 60%;
+}
+
+.privacy-container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.privacy-title {
+  margin-bottom: 20px;
+}
